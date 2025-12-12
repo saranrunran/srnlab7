@@ -1,3 +1,5 @@
+#include <iostream>
+
 //Dialog of the first example is given below.
 
 /*
@@ -16,3 +18,7 @@ Fahsai: Next Monday....that is OK!!! I'm looking forward to watching Star Wars V
 Luke Skywalker: May the Force be with you krub
 Fahsai: 555+ see you Next Monday. Bye Bye \(^ ^)/
 */
+
+int main() {
+    
+}
