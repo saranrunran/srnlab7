@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 //Dialog of the first example is given below.
 
@@ -20,5 +21,18 @@ Fahsai: 555+ see you Next Monday. Bye Bye \(^ ^)/
 */
 
 int main() {
+
+    string name;
+
+    cout << "Fahsai: Sawadee ka...Can you tell me your name?\n" << "?????: \n";
+    cin.ignore();
+    getline(cin, name);
+    cout << "\nFahsai: Wow!!! " << name << " is a really cool name.\n";
     
+    int id[9];
+    cout << "Fahsai: I think you are an Engineering student. What is your student ID?\n";
+    cout << name << ": ";
+    cin >> id[9];
+    cout << "Fahsai: I think you may be GEAR " << 
+
 }
